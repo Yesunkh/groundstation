@@ -1,0 +1,13 @@
+[Unit]
+Description=RTL-SDR ZMQ Streaming Server
+After=network.target
+
+[Service]
+Type=simple
+User=raspberrypi #REPLACE THIS WITH YOUR USERNAME, my raspberrypi username is called raspberrypi
+ExecStart=/home/raspberrypi/sdr_zmq.py #also replace this folder name, since username is different, if different
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

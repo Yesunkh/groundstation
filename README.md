@@ -62,7 +62,9 @@ Satellit → Antenne → SDR → Pi (Decoding + Tracking-Math)
 
 ## 📅 Status
 
-🚧 Kickoff: **Sonntag 17.05.2026**
+Abgeschlossen: Kickoff: **Sonntag 17.05.2026!**
+
+**next: ..tbd ;P**
 
 ## 📜 Lizenz
 
